@@ -5,7 +5,7 @@ function MovieCard(props) {
 			<div className="main">
 				<div className="movie-card">
 					<div className="left">
-						<img src={movie.poster}></img>
+						<img alt="poster" src={movie.poster}></img>
 					</div>
 					<div className="right">
 						<div className="title">{movie.title}</div>
